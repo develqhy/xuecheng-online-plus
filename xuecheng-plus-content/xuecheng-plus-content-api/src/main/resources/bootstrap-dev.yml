@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /content
+  port: 9100
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://hadoop000:3306/xc_content?serverTimezone=GMT%2b8&useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: Qhy123456
+
+swagger:
+  title: "学成在线-内容管理微服务"
+  description: "内容管理微服务对项目中的课程信息进行管理..."
+  base-package: com.xuecheng.content.api
+  enabled: true
+  version: 2.1.2
+  contact:
+    name: zzqhyy
+    url: www.zzqhyy.com
+    email: 6666@gmail.com
