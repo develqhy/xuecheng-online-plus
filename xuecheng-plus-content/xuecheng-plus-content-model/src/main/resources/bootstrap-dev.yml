@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /content
+  port: 5100
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://hadoop000:3306/xc_content?characterEncoding=utf-8&useUnicode=true
+      username: root
+      password: Qhy123456
+
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.xuecheng.content.model

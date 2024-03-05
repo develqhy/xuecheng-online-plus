@@ -3,3 +3,14 @@ spring:
     name: xuecheng-plus-content-microservice
   profiles:
     active: dev
+
+swagger:
+  title: "学成在线-内容管理微服务"
+  description: "内容管理微服务对项目中的课程信息进行管理..."
+  base-package: com.xuecheng.content.api
+  enabled: true
+  version: 2.1.2
+  contact:
+    name: zzqhyy
+    url: www.zzqhyy.com
+    email: 6666@gmail.com

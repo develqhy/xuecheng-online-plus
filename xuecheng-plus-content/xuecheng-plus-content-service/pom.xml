@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>xuecheng-plus-content-server</artifactId>
+    <artifactId>xuecheng-plus-content-service</artifactId>
 
     <dependencies>
         <dependency>
